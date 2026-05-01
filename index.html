@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shrushti R. Handge | AI & Data Science</title>
+<meta name="description" content="Portfolio of Shrushti R. Handge — Aspiring AI & Data Science Engineer. Projects, internships, skills and certifications.">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+
+<div class="scroll-progress" id="scrollProgress"></div>
+<div id="particles"></div>
+<div id="toast" class="toast"></div>
+
+<!-- NAV -->
+<nav>
+  <a href="#home" class="nav-logo"><span>&lt;/&gt;</span> SRH</a>
+  <button class="nav-toggle" id="navToggle" aria-label="Toggle menu"><i class="fas fa-bars"></i></button>
+  <div class="nav-links" id="navLinks">
+    <a href="#home" class="active" onclick="setActive(this)">Home</a>
+    <a href="#about" onclick="setActive(this)">About</a>
+    <a href="#skills" onclick="setActive(this)">Skills</a>
+    <a href="#projects" onclick="setActive(this)">Projects</a>
+    <a href="#internships" onclick="setActive(this)">Internships</a>
+    <a href="#certifications" onclick="setActive(this)">Certifications</a>
+    <a href="#contact" class="contact-btn" onclick="setActive(this)">Contact</a>
+    <button id="theme-toggle" class="theme-btn" aria-label="Toggle theme">
+      <i class="fas fa-moon"></i>
+    </button>
+  </div>
+</nav>
+
+<!-- HOME -->
+<section id="home">
+  <div class="home-left">
+    <div class="hello-tag">HELLO! I'M</div>
+    <h1 class="home-name">Shrushti R.<br>Handge</h1>
+    <p class="home-role"><span id="typed-role">Aspiring AI &amp; Data Science Engineer</span><span class="typed-cursor">|</span></p>
+    <div class="home-quote">
+      As an AI &amp; Data Science student, my goal is to apply my technical skills in machine learning, web development, and data visualization to build efficient, user-friendly applications and solve real-world problems while contributing through teamwork and continuous learning.
+    </div>
+    <div class="home-btns">
+      <a href="#contact" class="btn-contact ripple">CONTACT &nbsp;&rarr;</a>
+      <a href="Shrushti_Handge_Resume.pdf" id="resumeBtn" class="btn-resume ripple" download>
+        <i class="fas fa-download"></i> RESUME
+      </a>
+    </div>
+  </div>
+  <div class="home-right">
+    <div style="position:relative;display:flex;justify-content:center;align-items:center;">
+      <div class="avatar-outer-ring"></div>
+      <div class="avatar-ring">
+        <div class="avatar-placeholder"><i class="fas fa-user"></i></div>
+      </div>
+    </div>
+    <div class="social-follow">
+      <span>FOLLOW ME ON :</span>
+      <a href="https://www.linkedin.com/in/shrushti-handge-77a993313" target="_blank" rel="noopener" class="social-btn" aria-label="LinkedIn">
+        <i class="fab fa-linkedin-in"></i>
+      </a>
+      <a href="https://github.com/Shrushti7823" target="_blank" rel="noopener" class="social-btn" aria-label="GitHub">
+        <i class="fab fa-github"></i>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="section-title reveal">About Me</div>
+  <div class="title-underline reveal"></div>
+  <div class="about-grid">
+    <div>
+      <div class="about-quote-box reveal stagger-1">
+        <p>I am a B.Tech student in Artificial Intelligence & Data Science at K.K. Wagh Institute of Engineering Education and Research, with a strong interest in AI/ML, Data Science, and Web Development. I have hands-on experience in building real-world projects using Python, Flask, and MongoDB, and have completed an internship as a Software Developer. I enjoy solving practical problems and continuously improving my technical skills through projects and learning.</p>
+      </div>
+      <div class="key-achievements reveal stagger-2" style="margin-top:1.5rem;">
+        <h3>Key Achievements</h3>
+        <span class="achievement-tag">Finalist (Top 6) — PVGCOET National Level Hackathon</span>
+        <span class="achievement-tag">Participant — Smart India Hackathon (SIH)</span>
+        <span class="achievement-tag">Secured 2nd rank in First Year of B.Tech Engineering</span>
+        <span class="achievement-tag">3rd prize in PBL competition (Automatic Grass Cutter Project)</span>
+      </div>
+    </div>
+    <div class="education-col reveal-right">
+      <div class="edu-title">Education</div>
+      <div class="edu-card stagger-1">
+        <span class="edu-year y2022-26">2022-2026</span>
+        <h4>BTech in AI &amp; Data Science</h4>
+        <p>K. K. Wagh Institute of Engineering Education and Research, Nashik</p>
+        <span class="grade-badge grade-blue">CGPA: 8.62</span>
+      </div>
+      <div class="edu-card stagger-2">
+        <span class="edu-year y2022">2022</span>
+        <h4>HSC (Class 12th)</h4>
+        <p>Maharashtra State Board of Secondary &amp; Higher Secondary Education</p>
+        <span class="grade-badge grade-green">67%</span>
+      </div>
+      <div class="edu-card stagger-3">
+        <span class="edu-year y2020">2020</span>
+        <h4>SSC (Class 10th)</h4>
+        <p>Maharashtra State Board of Secondary &amp; Higher Secondary Education<br>&bull; Secured Rank 2 in School</p>
+        <span class="grade-badge grade-purple">88.40%</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+  <div class="section-title reveal">Skills &amp; Tools</div>
+  <div class="title-underline reveal"></div>
+
+  <div class="skills-grid">
+    <div class="skill-card reveal stagger-1">
+      <h3><i class="fas fa-code"></i> Languages</h3>
+      <div class="skill-tags">
+        <span>Python</span>
+        <span>SQL</span>
+        <span>C++</span>
+      </div>
+    </div>
+
+    <div class="skill-card reveal stagger-2">
+      <h3><i class="fas fa-tools"></i> Tools &amp; Platforms</h3>
+      <div class="skill-tags">
+        <span>Power BI</span>
+        <span>Excel</span>
+        <span>Git</span>
+        <span>Tableau</span>
+        <span>Google Colab</span>
+      </div>
+    </div>
+
+    <div class="skill-card reveal stagger-3">
+      <h3><i class="fas fa-brain"></i> AI &amp; Data Science</h3>
+      <div class="skill-tags">
+        <span>Machine Learning</span>
+        <span>Data Analysis</span>
+        <span>Preprocessing</span>
+      </div>
+    </div>
+
+    <div class="skill-card reveal stagger-4">
+      <h3><i class="fas fa-layer-group"></i> Frameworks</h3>
+      <div class="skill-tags">
+        <span>Django</span>
+        <span>Flask</span>
+      </div>
+    </div>
+
+    <div class="skill-card reveal stagger-5">
+      <h3><i class="fas fa-database"></i> Databases</h3>
+      <div class="skill-tags">
+        <span>MySQL</span>
+        <span>MongoDB</span>
+      </div>
+    </div>
+
+<div class="skill-card reveal stagger-6">
+  <h3><i class="fas fa-certificate"></i> Libraries</h3>
+  <div class="skill-tags">
+    <span>NumPy</span>
+    <span>Pandas</span>
+    <span>Matplotlib</span>
+    <span>Seaborn</span>
+    <span>Scikit-Learn</span>
+  </div>
+</div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+  <div class="section-title reveal">Projects</div>
+  <div class="title-underline reveal"></div>
+  <div class="projects-grid">
+    <div class="project-card reveal stagger-1">
+      <div class="project-header">
+        <div class="project-title">Community Management System</div>
+        <a href="https://github.com/Shrushti7823" target="_blank" rel="noopener" aria-label="GitHub repo"><i class="fab fa-github github-icon"></i></a>
+      </div>
+      <p class="project-desc">Developed a web-based system to manage community branches and data with admin access and secure storage.</p>
+      <div>
+        <span class="tag">Frontend Dev</span><span class="tag">HTML</span><span class="tag">CSS</span><br>
+        <span class="tag">Python (Flask)</span><span class="tag">MongoDB</span>
+      </div>
+    </div>
+    <div class="project-card reveal stagger-2">
+      <div class="project-header">
+        <div class="project-title">Idealsense</div>
+        <a href="https://github.com/Shrushti7823" target="_blank" rel="noopener" aria-label="GitHub repo"><i class="fab fa-github github-icon"></i></a>
+      </div>
+      <p class="project-desc">Automated system for sorting objects by shape, color, and weight using sensors, improving accuracy and efficiency.</p>
+      <div>
+        <span class="tag">Sensors</span><span class="tag">IoT</span><br>
+        <span class="tag">Arduino</span><span class="tag">Automation</span>
+      </div>
+    </div>
+    <div class="project-card reveal stagger-3">
+      <div class="project-header">
+        <div class="project-title">Intelligent Insurance Claim Processing System</div>
+        <a href="https://github.com/Shrushti7823" target="_blank" rel="noopener" aria-label="GitHub repo"><i class="fab fa-github github-icon"></i></a>
+      </div>
+      <p class="project-desc">AI-powered system for automated insurance claim processing with fraud detection, OCR document analysis, and straight-through processing.</p>
+      <div>
+        <span class="tag">Python</span><span class="tag">FastAPI</span>
+        <span class="tag">OCR</span>
+      </div>
+    </div>
+    <div class="project-card reveal stagger-4">
+      <div class="project-header">
+        <div class="project-title">Personal Portfolio Website</div>
+        <a href="https://github.com/Shrushti7823" target="_blank" rel="noopener" aria-label="GitHub repo"><i class="fab fa-github github-icon"></i></a>
+      </div>
+      <p class="project-desc">Responsive portfolio website to showcase my projects, skills, and achievements. Designed with clean UI, accessible code, and modern web best practices.</p>
+      <div>
+        <span class="tag">Designer</span><span class="tag">Frontend Dev</span><br>
+        <span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JavaScript</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- INTERNSHIPS -->
+<section id="internships">
+  <div class="section-title reveal">Internship Experience</div>
+  <div class="title-underline reveal"></div>
+  <div class="internships-grid">
+
+    <div class="intern-card reveal-right stagger-2">
+      <div class="intern-meta">
+        <span class="intern-date">Dec &ndash; May 2025</span>
+        <span class="intern-mode">Remote</span>
+      </div>
+      <div class="intern-title">Software Developer Intern</div>
+      <div class="intern-company">Humming Byte Technologies Pvt. Ltd</div>
+      <p class="intern-desc">Contributed to real-world projects, improving backend functionality and database management.</p>
+      <div>
+        <span class="intern-tag">Problem Solving</span>
+        <span class="intern-tag">Web Development</span>
+        <span class="intern-tag">Python</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CERTIFICATIONS -->
+<section id="certifications">
+  <div class="section-title reveal">Certifications</div>
+  <div class="title-underline reveal"></div>
+  <div class="certs-grid">
+    <div class="cert-card reveal stagger-1">
+      <div class="cert-logo" style="background:linear-gradient(135deg,#0ea5e9,#0369a1);">
+        <i class="fas fa-database"></i>
+      </div>
+      <div class="cert-title">SQL for Beginners</div>
+      <div class="cert-issuer">Scaler.com &middot; March 2026</div>
+    </div>
+    <div class="cert-card reveal stagger-2">
+      <div class="cert-logo" style="background:linear-gradient(135deg,#7c3aed,#4f46e5);">
+        <i class="fas fa-laptop-code"></i>
+      </div>
+      <div class="cert-title">Full Stack Web Developer Course</div>
+      <div class="cert-issuer">Coding Seekho &middot; March 2025</div>
+    </div>
+    <div class="cert-card reveal stagger-3">
+      <div class="cert-logo" style="background:linear-gradient(135deg,#facc15,#eab308);">
+        <i class="fab fa-python" style="color:#1e3a8a;"></i>
+      </div>
+      <div class="cert-title">Python Programming Course</div>
+      <div class="cert-issuer">Coding Seekho &middot; Feb 2025</div>
+    </div>
+    <div class="cert-card reveal stagger-4">
+      <div class="cert-logo" style="background:linear-gradient(135deg,#10b981,#047857);">
+        <i class="fas fa-file-excel"></i>
+      </div>
+      <div class="cert-title">iLike Certificate in Excel Essentials</div>
+      <div class="cert-issuer">MKCL &middot; 2024</div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="section-title reveal">Get In Touch</div>
+  <div class="title-underline reveal"></div>
+  <div class="contact-grid">
+    <div class="contact-info reveal-left">
+      <a class="contact-card stagger-1" href="mailto:shrushtihandge7823@gmail.com" style="text-decoration:none;color:inherit;">
+        <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+        <div>
+          <h4>Email</h4>
+          <p>shrushtihandge7823@gmail.com</p>
+        </div>
+      </a>
+      <a class="contact-card stagger-2" href="tel:+917823803998" style="text-decoration:none;color:inherit;">
+        <div class="contact-icon"><i class="fas fa-phone"></i></div>
+        <div>
+          <h4>Phone</h4>
+          <p>+91 78238 03998</p>
+        </div>
+      </a>
+      <div class="contact-card stagger-3">
+        <div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div>
+        <div>
+          <h4>Location</h4>
+          <p>Nashik, Maharashtra</p>
+        </div>
+      </div>
+      <div class="contact-socials stagger-4">
+        <a href="https://www.linkedin.com/in/shrushti-handge-77a993313" target="_blank" rel="noopener" class="c-social" aria-label="LinkedIn">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+        <a href="https://github.com/Shrushti7823" target="_blank" rel="noopener" class="c-social" aria-label="GitHub">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+    </div>
+    <form class="contact-form reveal-right" id="contactForm">
+      <div class="form-group">
+        <label for="cf-name">Name</label>
+        <input id="cf-name" type="text" placeholder="Your name" required>
+      </div>
+      <div class="form-group">
+        <label for="cf-email">Email</label>
+        <input id="cf-email" type="email" placeholder="you@example.com" required>
+      </div>
+      <div class="form-group">
+        <label for="cf-subject">Subject</label>
+        <input id="cf-subject" type="text" placeholder="Subject" required>
+      </div>
+      <div class="form-group">
+        <label for="cf-message">Message</label>
+        <textarea id="cf-message" placeholder="Your message..." required></textarea>
+      </div>
+      <button type="submit" class="btn-send ripple"><i class="fas fa-paper-plane"></i> SEND MESSAGE</button>
+    </form>
+  </div>
+</section>
+
+<footer class="footer">
+  <p>Designed & built by <span class="highlight">Shrushti Handge</span></p>
+  <p>B.Tech AI & DS · K.K. Wagh Institute, Nashik</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
