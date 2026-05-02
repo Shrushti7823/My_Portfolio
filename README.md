@@ -83,6 +83,7 @@ Community Management System
 Idealsense (IoT Project)
 Intelligent Insurance Claim Processing System
 Personal Portfolio Website
+
 📞 Contact
 📧 Email: shrushtihandge7823@gmail.com
 🔗 LinkedIn: https://www.linkedin.com/in/shrushti-handge-77a993313
