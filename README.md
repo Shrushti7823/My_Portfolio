@@ -48,7 +48,7 @@ git init
 git add .
 git commit -m "Initial portfolio commit"
 git branch -M main
-git remote add origin https://github.com/yourusername/My_Portfolio.git
+git remote add origin https://github.com/Shrushti7823/My_Portfolio.git
 git push -u origin main
 Step 3 — Enable GitHub Pages
 Go to Settings
