@@ -83,6 +83,7 @@ Community Management System
 Idealsense (IoT Project)
 Intelligent Insurance Claim Processing System
 Personal Portfolio Website
+HealthPulse AI
 
 📞 Contact
 📧 Email: shrushtihandge7823@gmail.com
