@@ -68,7 +68,7 @@ document.querySelectorAll('.ripple').forEach(el=>{
   });
 });
 
-const roles=['Aspiring AI & Data Science Engineer &','Python Developer &','Machine Learning Enthusiast &','Power BI Dashboard Builder'];
+const roles=['Aspiring AI & Data Science Engineer &','Python Developer &','Machine Learning Enthusiast &','Data Analysis &','Power BI Dashboard Builder'];
 let ri=0,ci=0,deleting=false;
 const typedEl=document.getElementById('typed-role');
 function typeWriter(){
