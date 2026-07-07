@@ -38,7 +38,6 @@ My_Portfolio/
 - Click **Commit changes**
 
 ---
-
 #### Option B — Git CLI
 
 ```bash
@@ -58,14 +57,6 @@ Folder: / (root)
 Click Save
 
 https://shrushti7823.github.io/My_Portfolio/
-
-✏️ Customization
-🔗 LinkedIn / GitHub
-Update links inside index.html
-📄 Resume
-Replace Shrushti_Handge_Resume.pdf with your latest resume
-💻 Project Links
-Add your GitHub project links in project section
 
 ✨ Features
 🌙 Dark / Light Mode Toggle
