@@ -6,13 +6,11 @@ A clean, modern, and fully responsive personal portfolio built using **HTML, CSS
 
 ## 🗂 File Structure
 
-
 My_Portfolio/
 ├── index.html # Main HTML file
 ├── style.css # Styling (UI, animations, responsive)
 ├── script.js # Interactivity & animations
 └── Shrushti_Handge_Resume.pdf # Resume file
-
 
 ---
 
